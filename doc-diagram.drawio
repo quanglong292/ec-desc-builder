@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2023-09-02T16:58:57.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="yoaWcF_NXPChbWxZsIh2" version="21.6.8" type="device">
+  <diagram name="Page-1" id="Sc9WvlvhGH21-gFiP7wf">
+    <mxGraphModel dx="915" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iqSlKGilMA0YmGkbRwjY-1" target="iqSlKGilMA0YmGkbRwjY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-1" value="REACT&lt;br&gt;The main client app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-2" value="&lt;h1&gt;E-Commerce product description builder architecture&lt;/h1&gt;&lt;p&gt;- FE: Angular&lt;/p&gt;&lt;p&gt;- BE: NestJS&lt;/p&gt;&lt;p&gt;- CI/CD: Jenkins&lt;/p&gt;&lt;p&gt;- TS, Mono-repo&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="430" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iqSlKGilMA0YmGkbRwjY-3" target="iqSlKGilMA0YmGkbRwjY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iqSlKGilMA0YmGkbRwjY-3" target="iqSlKGilMA0YmGkbRwjY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-3" value="ANGULAR&lt;br&gt;The description builder" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="275" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-6" value="Click build description layout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="275" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iqSlKGilMA0YmGkbRwjY-7" target="iqSlKGilMA0YmGkbRwjY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-7" value="NEST.JS&lt;br&gt;APIs builder" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-9" value="PG" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="820" y="275" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-11" value="Hosted by Supabase" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="340" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iqSlKGilMA0YmGkbRwjY-12" target="iqSlKGilMA0YmGkbRwjY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-12" value="Click save" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="390" width="70" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="iqSlKGilMA0YmGkbRwjY-15" value="Route back to React app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
